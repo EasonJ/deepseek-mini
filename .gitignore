@@ -1,0 +1,21 @@
+# Private browser state and local settings
+data/
+**/data/
+*.log
+*.tmp
+
+# Build output and restored dependencies
+*.exe
+*.dll
+*.pdb
+*.zip
+.deps/
+bin/
+obj/
+.vs/
+
+# Local environment and secrets
+.env
+.env.*
+*.user
+*.suo
